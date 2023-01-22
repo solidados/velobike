@@ -1,0 +1,97 @@
+/* --- Bike --- */
+.bike {
+    border: 0;
+    padding: 100px 0 150px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left_title {
+        margin: 74px 0 5px 0;
+
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 77px;
+    }
+    &__left_subtitle {
+        margin-bottom: 60px;
+
+        font-size: 32px;
+        line-height: 39px;
+        color: #6f6f6f;
+    }
+    &__left_text {
+        width: 420px;
+        &:nth-of-type(1) {
+            margin-bottom: 20px;
+        }
+        &:nth-of-type(2) {
+            margin-bottom: 80px;
+        }
+    }
+    a.bike__left_order {
+        display: inline-block;
+        padding: 28px 81px;
+        background: #131313;
+
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 1.1em;
+        text-transform: uppercase;
+        color: #fff;
+        &:hover {
+            background: #ff4040;
+            color: #ffffff;
+            transition: all 0.4s;
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 74px;
+        &-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & span:nth-child(1) {
+                margin-bottom: 5px;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                text-transform: uppercase;
+            }
+            & span:nth-child(2) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                min-height: 60px;
+            min-width: 160px;
+
+                text-align: center;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+    }
+
+    /* -- Slider -- */
+    .slider {
+
+        &__lines {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            & span{
+                height: 2px;
+                width: 30px;
+                background-color: red;
+            }
+        }
+    }
+}
