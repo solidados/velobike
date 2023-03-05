@@ -297,3 +297,119 @@ p {
   font-size: 14px;
   line-height: 1.2;
 }
+
+.characts {
+  margin-bottom: 153px;
+}
+.characts__header {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #131313;
+}
+.characts__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.characts__items {
+  -ms-flex-preferred-size: 570px;
+      flex-basis: 570px;
+  margin-right: 60px;
+}
+.characts__list {
+  padding-top: 30px;
+  -ms-flex-preferred-size: 285px;
+      flex-basis: 285px;
+}
+.characts__list-title {
+  padding: 3px;
+  margin-bottom: 10px;
+  background-color: #131313;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.characts__data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+}
+.characts__name {
+  -ms-flex-preferred-size: 285px;
+      flex-basis: 285px;
+  padding-right: 15px;
+}
+.characts__descr {
+  -ms-flex-preferred-size: 285px;
+      flex-basis: 285px;
+}
+.characts__img {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+/* .characts {
+    margin-top: 150px;
+    &__header {
+        margin-bottom: 40px;
+
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__items {
+        flex-basis: 570px;
+        margin-right: 60px;
+    }
+
+    &__list + &__list {
+        padding-top: 30px;
+    }
+
+    &__list-title {
+        padding: 3px 10px;
+        margin-bottom: 10px;
+        background-color: #131313;
+
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    &__data {
+        display: flex;
+        padding-top: 5px;
+    }
+
+    &__name {
+        flex-basis: 285px;
+        padding-right: 15px;
+    }
+
+    &__descr {
+        flex-basis: 285px;
+    }
+
+    &__img {
+        align-self: center;
+    }
+} */
+.slider {
+  margin-top: 50px;
+}
+.slider__items {
+  top: 0;
+  left: 0;
+}
+.slider__item {
+  padding-left: 50px;
+}
