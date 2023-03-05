@@ -1,0 +1,13 @@
+.slider {
+margin-top: 50px;
+    &__items {
+        top: 0;
+        left: 0;
+    }
+
+    &__item {
+        padding-left: 50px;
+    }
+
+    &__item-img {}
+}
